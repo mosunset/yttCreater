@@ -1,9 +1,9 @@
 @use 'variables.scss' as var;
 
 main {
-    background-color: rgba(50, 50, 200, 0);
     min-height: calc(100vh - var.$header-height - var.$footer-height);
-
+    video-js{
+        font-family: initial;
+    }
 }
-
 

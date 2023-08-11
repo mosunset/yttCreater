@@ -1,4 +1,6 @@
 main {
-  background-color: rgba(50, 50, 200, 0);
-  min-height: calc(100vh - 60px - 80px);
+  min-height: calc(100vh - 60px - 45px);
+}
+main video-js {
+  font-family: initial;
 }/*# sourceMappingURL=style.css.map */
