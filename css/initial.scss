@@ -1,3 +1,5 @@
+@use 'variables.scss' as var;
+
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap");
 
@@ -16,10 +18,17 @@
     outline: 1px solid red;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-    vertical-align: bottom;
+// img {
+//     max-width: 100%;
+//     height: auto;
+//     vertical-align: bottom;
+// }
+
+body {
+    min-height: 100vh;
+    //background-color: rgb(200, 50, 50);
+    max-width: var.$body-width;
+    margin: 0 auto;
 }
 
 main {
