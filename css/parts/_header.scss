@@ -11,7 +11,7 @@ header {
         margin: 8px;
         a {
             display: inline-block;
-            padding: 4px;
+            padding: 8px;
             text-decoration: none;
             span {
                 color: black;
@@ -31,7 +31,7 @@ header {
             align-items: center;
             li {
                 display: inline-block;
-                margin: 8px;
+                margin: 4px;
                 min-width: 96px;
 
                 a {
@@ -46,7 +46,8 @@ header {
                     justify-content: center;
                     align-items: center;
                     font-weight: bold;
-                    &.active {
+                    font-size: 1.1rem;
+                    &[active] {
                         background-color: var.$nav-active;
                     }
                     &:hover {

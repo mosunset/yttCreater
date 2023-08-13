@@ -5,3 +5,10 @@
 @import "parts/header";
 @import "parts/main";
 @import "parts/footer";
+
+*,
+*::after,
+*::before {
+    // 確認用
+    // outline: 1px solid red;
+}

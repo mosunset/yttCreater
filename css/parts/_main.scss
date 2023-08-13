@@ -1,7 +1,16 @@
-@use 'variables' as var;
+@use "variables" as var;
 
 main {
-    :not(.ytfont){
+    padding: 8px;
+    :not(.ytfont) {
         font-family: var.$font-youtube;
+    }
+
+    
+    .video {
+        // height: 100%;
+    }
+    video-js {
+        box-shadow: 0 0 0 1px black;
     }
 }
