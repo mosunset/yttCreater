@@ -1,0 +1,59 @@
+@use "variables" as var;
+
+header {
+    background-color: rgba(56, 56, 56, 0);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    user-select: none;
+    div {
+        margin: 8px;
+        a {
+            display: inline-block;
+            padding: 4px;
+            text-decoration: none;
+            span {
+                color: black;
+                font-size: 1.4rem;
+                font-weight: bold;
+            }
+        }
+    }
+
+    nav {
+        z-index: 1;
+        ul {
+            list-style-type: none;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            li {
+                display: inline-block;
+                margin: 8px;
+                min-width: 96px;
+
+                a {
+                    display: flex;
+                    color: black;
+                    text-decoration: none;
+                    width: 100%;
+                    height: 100%;
+                    padding: 8px;
+                    border: 1px solid var.$nav-border;
+                    border-radius: 8px;
+                    justify-content: center;
+                    align-items: center;
+                    font-weight: bold;
+                    &.active {
+                        background-color: var.$nav-active;
+                    }
+                    &:hover {
+                        color: var.$nav-hover;
+                    }
+                }
+            }
+        }
+    }
+}

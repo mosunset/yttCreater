@@ -1,0 +1,39 @@
+$font-default: "Noto Sans JP", sans-serif;
+$font-youtube: "Roboto", sans-serif;
+
+$body-width: 1400px;
+$header-height: 60px;
+$footer-height: 45px;
+$nav-height: 50vh;
+
+$white: #ffffff;
+$orange: orange;
+$pale-orange: #ffc8aa;
+$red: red;
+$blue: blue;
+$skyblue: #b0d2ff;
+
+$nav-border: $blue;
+$footer-nav-hover: $red;
+$nav-hover: $red;
+$nav-active: $skyblue;
+
+$text-shadow-white:
+    1px 1px 1px $white,
+    -1px -1px 1px $white,
+    -1px 1px 1px $white,
+    1px -1px 1px $white,
+    1px 0 1px $white,
+    -1px 0 1px $white,
+    0 1px 1px $white,
+    0 -1px 1px $white;
+
+$text-shadow-pale-orange:
+    1px 1px 1px $pale-orange,
+    -1px -1px 1px $pale-orange,
+    -1px 1px 1px $pale-orange,
+    1px -1px 1px $pale-orange,
+    1px 0 1px $pale-orange,
+    -1px 0 1px $pale-orange,
+    0 1px 1px $pale-orange,
+    0 -1px 1px $pale-orange;
