@@ -1,0 +1,13 @@
+main .video{
+    position: relative;
+    video-js{
+
+    }
+    #subtitle{
+        position: absolute;
+        background-color: rgba(216, 139, 139, 0.445);
+        z-index: 1;
+        height: 100%;
+        height: 100%;
+    }
+}

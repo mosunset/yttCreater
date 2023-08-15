@@ -16,17 +16,20 @@
     <meta name="msapplication-config" content="./icon/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
-    <link rel="stylesheet" href="./css/style.css">
-
-    <!--<script src="https://code.jquery.com/jquery-3.7.0.min.js"
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
         integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
--->
+
     <link href="https://vjs.zencdn.net/8.3.0/video-js.min.css" rel="stylesheet">
     <script src="https://vjs.zencdn.net/8.3.0/video.min.js"></script>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+
 </head>
 
 <body>
-    <header>
+
+    <header class="">
         <div>
             <a href="#">
                 <span>YouTube字幕ファイル作成 Create ytt file</span>
@@ -41,21 +44,23 @@
                 <li><a href="#">概要</a></li>
             </ul>
         </nav>
+
     </header>
 
     <main>
         <div class="video">
-            <video-js class="" data-setup={volume:30;} controls muted playsinline>
+            <video-js id="video1" class="" data-setup={} controls playsinline>
                 <source src="./video/にじさんじ-Virtual-to-LIVE_OfficialMusicVideo.mp4#0.001" type="video/mp4">
+                <track kind="captions" src="./subtitle/sample1.vtt" srclang="en" label="English" default>
             </video-js>
+            <div id="subtitle"></div>
         </div>
-        <div></div>
-        <div></div>
-        <div></div>
-
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
     </main>
 
-    <footer>
+    <footer class="">
         <p>&copy; 2023 mosunset</p>
         <ul>
             <li><a href="#">ホーム</a></li>
@@ -65,6 +70,8 @@
             <li><a href="#">概要</a></li>
         </ul>
     </footer>
+
+
 
     <script src="./js/index.js"></script>
 </body>

@@ -31,6 +31,14 @@ body {
     box-shadow: 0 0 0 calc(100vw - var.$body-width) rgba(231, 204, 204, 0.8);
 }
 
+.hidden{
+    display: none;
+    & * {
+        display: none;
+        
+    }
+}
+
 header {
     height: var.$header-height;
 }

@@ -6,9 +6,12 @@
 @import "parts/main";
 @import "parts/footer";
 
+@import "parts/videojs";
+@import "parts/subtitle";
+
 *,
 *::after,
 *::before {
     // 確認用
-    // outline: 1px solid red;
+    //outline: 1px solid red;
 }
